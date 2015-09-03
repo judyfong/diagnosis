@@ -49,13 +49,61 @@ h2 {
     height:3%;
     margin-left: 65px;
 }
+
+.circle
+{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+}
+.sight
+{
+    position: absolute;
+    background: #24394D;
+    overflow: hidden;
+}
+
+.sight-top
+{
+    top: 48px;
+    left: 667px;
+    width: 26px;
+    height: 25px;
+}
+
+.sight .pupil
+{
+    background: #110b00;
+}
+
+.sight-bottom
+{
+    top: 507px;
+    left: 660px;
+    width: 26px;
+    height: 25px;
+}
+
+.parallels-bottom
+{
+}
 </style>
 </head>
 <body>
-<h1>DIAGNOSIS</h1>
-<p id="parallels"> &#32</p>
-<h2>SYMPTOMS</h2>
-<img src="baymaxProfilePic.jpg" width="100"><br/>
-<p id="parallels"></p>
+    <h1>DIAGNOSIS</h1>
+    <div class="circle sight sight-top">
+        <div class="circle pupil">
+        </div>
+    </div>
+    <p id="parallels"> &#32</p>
+    <h2>SYMPTOMS</h2>
+    <img src="baymaxProfilePic.jpg" width="100"><br/>
+    <p id="parallels"></p>
+
+    <div class="circle sight sight-bottom">
+    <div class="circle pupil">
+    </div>
+    </div>
+
 </body>
 </html>
